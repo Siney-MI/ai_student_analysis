@@ -120,8 +120,7 @@ elif plot_type == "Anwendungsfall":
     st.pyplot(figure)
     with st.expander("Analyse"):
         st.write("""
-        Studierende, die KI nutzen, um Inhalte zu erstellen, Notizen zu strukturieren,Programmieraufgaben zu lösen oder sich auf Prüfungen vorbereiten, empfinden eine deutliche Verbesserung ihrer Noten. 
-        Hingegen zeigt sich bei spezifischen Übungsformaten wie Multiple Choice und beim Klären von Verständnisfragen ein negativer Trend.
-        Besonders auffällig ist, dass die Nutzung von KI für "Projects" mit einer schlechteren Benotung korreliert, vielleicht weil die Themen und Strukturen oft zu komplex sind.
-        Es kommt also nicht nur darauf an, *dass* man KI nutzt, sondern ob sie als Werkzeug zur Produktivität (Text, Code, Notizen) oder als Ersatz für tiefgehendes Üben (Projekte, MCQs) eingesetzt wird.
+        Während Hilfe beim Programmieren und bei Hausaufgaben den größten positiven Effekt auf die Noten haben, führen andere Nutzungen eher zu einer Leistungsverschlechterung. 
+        Besonders negativ wirken sich Anwendungen wie Prüfungsvorbereitung und das Klären von Zweifelsfragen aus.
+        Der Erfolg ist also nicht universell, sondern spezifisch an die Art der Aufgabe gebunden.
         """)
