@@ -25,7 +25,7 @@ if 'Stream' in df.columns:
      selected_streams = st.sidebar.multiselect(
          "Studienrichtung:",
          options=all_streams,
-         default=all_streams
+
      )
      df = df[df['Stream'].isin(selected_streams)]
 
